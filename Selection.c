@@ -3,11 +3,11 @@
 void SelectionSort (int Arr[], int arrSize )
 {
   /* pass the array n-2 times because first and last elements will fall in place. */
-  for ( int i = 0; i < n-2; i++)
+  for ( int i = 0; i < arrSize-2; i++)
   {
     /* use a variable to define min element index */
     int min_index = i; 
-    for (int j = i+1; j<n; j++)
+    for (int j = i+1; j<arrSize; j++)
     {
       if (Arr[j] < Arr[min_index] ) 
       {
