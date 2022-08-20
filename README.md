@@ -1,8 +1,8 @@
 ### Sorting Algorithms 
 
  
-- Selection sort with Swap
-- 
+- Selection sort with Swap.
+- Bubble Sort with Swap.
 
 
 
