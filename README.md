@@ -1,8 +1,7 @@
 ### Sorting Algorithms 
 
-
-sorting algorithms: 
-- selection sort 
+ 
+- Selection sort with Swap
 - 
 
 
