@@ -7,7 +7,7 @@ this includes:
 3. bubble sort with time complixity improvement for the best cases.
 */
 
-void Bubble_1 (int Arr[], ArrSize)
+void Bubble_1 (int Arr[], int ArrSize)
 {
   for (int k = 0; k < n-1; k++)               //number of passes on array.
   {
@@ -25,7 +25,7 @@ void Bubble_1 (int Arr[], ArrSize)
 }
 
 
-void Bubble_2 (int Arr[], ArrSize)
+void Bubble_2 (int Arr[], int ArrSize)
 {
   for (int k = 0; k < n-1; k++)                //number of passes on array.
   {
@@ -43,7 +43,7 @@ void Bubble_2 (int Arr[], ArrSize)
 }
 
 
-void Bubble_3 (int Arr[], ArrSize)
+void Bubble_3 (int Arr[], int ArrSize)
 {
   int flag = 0;                                //flag for swaps checking, if no swaps, break out of doing more passes.
   for (int k = 0; k < n-1; k++)                //number of passes on array.
